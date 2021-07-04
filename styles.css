@@ -3,6 +3,7 @@
 :root{
   --light: #f8f9fa!important;
   --white: white;
+  --pink: #FF385C !important;
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -60,6 +61,10 @@
   border-radius: 15px;
   overflow: hidden;
 }
+.rounded-4{
+  border-radius: 10px;
+  overflow: hidden;
+}
 .fs-7{
   font-size: 14px;
 }
@@ -112,4 +117,20 @@ footer .container .row .col li{
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.ticks{
+  list-style-type: none;
+}
+.text-danger{
+  color: var(--pink);
+}
+.bg-danger{
+  background-image: radial-gradient(circle at center center, rgb(255, 56, 92) 0%, rgb(230, 30, 77) 27.5%, rgb(227, 28, 95) 40%, rgb(215, 4, 102) 57.5%, rgb(189, 30, 89) 75%, rgb(189, 30, 89) 100%) !important;
+}
+.max-h-screen{
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+.decoration-none{
+  text-decoration: none;
 }
