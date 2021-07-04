@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+:root{
+  --light: #f8f9fa!important;
+  --white: white;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a{
+  color: inherit;
+  text-decoration: none;
+}
+.nav-item a:hover{
+  background-color: var(--light);
+  box-shadow: 1px 1px 3px rgb(31, 30, 30);
+}
+.footer-nav-item a{
+  color: inherit;
+  text-decoration: inherit;
+}
+.footer-nav-item a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.h-screen{
+  min-height: 100vh;
+}
+
+.reverse-wrapp{
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+.cover-image{
+  width: 100%;
+  object-fit: cover;
+}
+.variable-width a{
+  color: inherit;
+  text-decoration: none;
+}
+.variable-width a:hover{
+  border: 1px solid black;
+  color: inherit;
+}
+.w-auto{
+  width: auto;
+}
+.slick-next{
+  background-color: var(--light);
+  color: var(--light);
+}
+.rounded-5{
+  border-radius: 10px;
+}
+.fs-7{
+  font-size: 14px;
+}
+.vertical-card{
+  height: 250px;
+  width: auto;
+  overflow: hidden;
+}
+.vertical-card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.btn-outline{
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.this-week .card{
+  height: 320px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.this-week .card img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bg-black-light{
+  background-color: rgb(20, 20, 20);
+}
+.bg-black-light:hover{
+  background-color: black;
+}
+footer .container .row .col li{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.footer-link{
+  color: inherit;
+}
